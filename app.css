@@ -4,40 +4,48 @@ background-color: rgb(248, 248, 248);
 
 img {
     height: 100px;
-border-bottom-width: 0px;
-border-bottom-style: solid;
-border-left-width: 0px;
-border-left-style: solid;
-border-top-width: 0px;
-border-top-style: solid;
-border-right-width: 0px;
-border-right-style: solid;
 display: block;
 margin: 0 auto;
-padding-top: 0px;
+justify-content: center;
+align-self: center;
+
 }
 
 input {
     display: block;
-margin: 0 auto;
 margin-top: 20px;
-padding-right: 50px;
-padding-left: 50px;
+margin-left: 510px;
+width: 320px;
 }
 
 .button-div {
     margin-top: 15px;
+    margin-left: 548px;
 }
 
 p {
     font-size: 11px;
 display: block;
 margin-top: 10px;
-margin-left: 520px;
+margin-left: 527px;
 }
 
-.image-div {
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 100px;
-}
+
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+   }
+
+  li {
+      display: inline;
+      margin-right: 20px;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+  }
