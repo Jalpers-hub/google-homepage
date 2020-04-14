@@ -3,6 +3,7 @@ a {
     color: black;
 }
 
+<<<<<<< HEAD
 .container {
     display:grid;
     grid-template-columns: repeat(12, 1fr);
@@ -16,6 +17,27 @@ header{
     font-size: 12px;
     margin-top: 10px;
     margin-left: 10px;
+=======
+img {
+    height: 100px;
+display: block;
+margin: 0 auto;
+justify-content: center;
+align-self: center;
+
+}
+
+input {
+    display: block;
+margin-top: 20px;
+margin-left: 510px;
+width: 320px;
+}
+
+.button-div {
+    margin-top: 15px;
+    margin-left: 548px;
+>>>>>>> c4ee6e17cce57f47f4d332879f22d4f9eda5f6c5
 }
 #about{
     padding-right: 10px;
@@ -26,6 +48,7 @@ header{
     grid-column: 11/13;
     margin-top: 10px;
 
+<<<<<<< HEAD
 }
 
 #app-icon{
@@ -35,3 +58,31 @@ header{
 .google-image{
     grid-column: 6/9;
 }
+=======
+p {
+    font-size: 11px;
+display: block;
+margin-top: 10px;
+margin-left: 527px;
+}
+
+
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+   }
+
+  li {
+      display: inline;
+      margin-right: 20px;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+  }
+>>>>>>> c4ee6e17cce57f47f4d332879f22d4f9eda5f6c5
