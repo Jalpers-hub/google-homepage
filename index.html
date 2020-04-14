@@ -1,30 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Google</title>   
         <link rel="stylesheet" href="app.css" >
+        <meta name="author" content="James Alpers">
+        <meta charset="UTF-8">
+        <meta name="description" content="My first odin project making a google homepage">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
      <Body>
-       <header>
-           <a class="about-tab" 
-           href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+        
+        <div class="container">
             
-       </header>
-        <div class="image-div"> <!-- trying a div element-->
-        <a href="https://www.google.com/"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google home picture" >
-        </a>
+            <div class="left-header">
+                 <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" id="about"> About</a>
+                 <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                </div>
+
+            <div class="right-header">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#"> <img src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png" alt="google app icon" id="app-icon"></a>
+                <button name="sign-in" id="sign-in">Sign In</button>
+                </div>
+            
+         
+            <div class="google-image">
+                <a href="https://www.google.com/?&bih=827&biw=1920&client=ubuntu&hl=en"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google frontpage icon"></a>
+            </div>
+
+            <div class="search-bar">
+                <input type="search"> 
+               </div>
+            
+            <div>
+                <button name="Google-Search" id="google-search"> Google Search</button>
+                <button name="Im-Feeling-Lucky" id="im-feeling-lucky">Im Feeling Lucky</button>
+            
+            </div>
+
+            <footer>
+                <div class="left-footer">
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                    <a href="#">How Search Works</a>
+                </div>
+
+                <div class="right-footer">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Settings</a>
+                </div>
+            </footer>
         </div>
-        <input type="search" >
-        <div class="button-div">
-            <center>
-                <button type="button">Google Search</button>
-
-                <button type="button">I'm Feeling Lucky</button>
-            </center>
-        </div>
-
-        <p> Stay safe everyone. Thank you to all health workers.</p>
-        
 
 
 
@@ -34,6 +62,5 @@
 
 
         
-    </Body>
-</html>
-
+     </body>          
+</html>                 
