@@ -62,11 +62,33 @@ header{
     justify-self: center;
     
 }
-#search{
+.search{
     grid-row:3;
     grid-column:5/9;
     justify-self:center;
     padding:4px 10px;
+    border-radius: 25px;
+    width: 400px;
+  height: 25px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+    
+}
+input{
+    margin: 0;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      height: 100%;
+      background: transparent;
+      width: 400px;
+}
+.buttons{
+    grid-column:5/9;
+    grid-row:3/4;
+    align-self: center;
+    justify-self: center;
     
 }
 
